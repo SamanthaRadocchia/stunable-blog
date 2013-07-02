@@ -16,6 +16,7 @@ group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
   gem 'zurb-foundation'
+  gem 'compass-rails' # you need this or you get an err
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -50,3 +51,4 @@ gem 'refinerycms-blog', '~> 2.0.0'
 #  gem 'refinerycms-search', '~> 2.0.0'
 #  gem 'refinerycms-page-images', '~> 2.0.0'
 gem 'dragonfly'
+gem 'capistrano'
